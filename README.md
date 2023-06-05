@@ -4,4 +4,4 @@ A meta model for the Graphical Modeling Language for Artificial Intelligence App
 ## Visual documentation
 | <img src="./images/gml-formalization.png"/>| 
 |:--:|
-| Visual representation of the *gml-formalization* package |
+| Visual representation of the *gml-formalization* |
