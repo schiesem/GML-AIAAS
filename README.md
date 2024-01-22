@@ -50,14 +50,6 @@ Standardized symbolism of the defined system elements allows simplifying the dev
 |:--:|
 | Standardized Symbols of GML-AIAAS |
 
-
-## UML-Meta-Model
-For further formalization a UML-Meta-Model is presented. This model captures all dependencies between the different modeling elements.
-
-| <img src="./images/gml-formalization.png"/>|
-|:--:|
-| Formalization with UML of GML-AIAAS |
-
 ## Example with Use-Case
 The business goal of the presented use case is to reduce the maintenance costs of a stamping machine. The machine consists of a support frame, a fixed lower die and a movable upper die. The upper die is moved by an electric motor, which is mounted on the support frame. The driving force is transmitted via the drive belt and the position of the upper die is measured via two positional sensors. This machine performs a stamping process in which a metal plate is processed. The technical goal is to optimize its maintenance strategy by predicting the wear condition of the drive belt. Currently, the drive belt is maintained in fixed intervals.
 Some interviews with process operators revealed that a worn-out drive belt causes an oscillation of the upper stamp die when it gets positioned. Based on that assumption, the measured positioning values recorded during the stamping process can be used to infer the belt wear condition. For the automated analysis of this position data, an AI application should be developed. In the following figure a possible modeling is presented.
@@ -65,6 +57,13 @@ Some interviews with process operators revealed that a worn-out drive belt cause
 | <img src="./images/figures-bm_maintenance.png"  width="400" >|
 |:--:|
 | Standardized Symbols of GML-AIAAS |
+
+## UML-Meta-Model
+For further formalization a UML-Meta-Model is presented. This model captures all dependencies between the different modeling elements.
+
+| <img src="./images/gml-formalization.png"/>|
+|:--:|
+| Formalization with UML of GML-AIAAS |
 
 ## How to cite
 
